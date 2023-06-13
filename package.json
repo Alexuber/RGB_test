@@ -18,7 +18,6 @@
     "url": "https://github.com/Alexuber/RGB_test/issues"
   },
   "dependencies": {
-    "emailjs": "^4.0.2",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
