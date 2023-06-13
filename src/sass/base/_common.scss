@@ -1,0 +1,7 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  background-color: #242731;
+  color: #fff;
+  @include main-font(400, 11px);
+}

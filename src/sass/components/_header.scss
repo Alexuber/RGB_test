@@ -1,0 +1,49 @@
+.header {
+  padding: 28px 0 0 14px;
+}
+
+.logo {
+  @include media-min(desktop) {
+    width: 182px;
+    height: 56px;
+  }
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-date {
+  display: flex;
+  gap: 6px;
+
+  @include media-min(desktop) {
+    gap: 18px;
+  }
+}
+
+.header-date__time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6.02px 6.89px 5.43px 6px;
+
+  background: #302e5a;
+  border-radius: 5.93333px;
+  line-height: 8px;
+
+  @include media-min(desktop) {
+    padding: 13px 22px;
+    gap: 6px;
+  }
+}
+
+@include media-min(desktop) {
+  .header-date__text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
